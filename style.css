@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.jumbotron {
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/590398ae9a27fec27fdac9450c0738d409cc84ff/c6bb7/static/2b5773beca118974180168ada813ba7b/an-introduction-to-low-level-programming.jpg");
+  background-size: contain;
+  color: white;
+}
+
+#cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navbar {
+  background: purple !important;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: white !important;
+  transition: color 0.25s !important;
+}
+
+.nav-link:hover {
+  color: aqua !important;
+}
+
+.navbar-brand {
+  color: aqua !important;
+  font-weight: bold !important;
+}
+
+.btn.btn-primary {
+  background-color: purple !important;
+  border-color: black !important;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.btn.btn-primary:hover {
+  background-color: rgb(7, 98, 7) !important;
+}
