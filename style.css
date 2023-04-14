@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background: purple !important;
+  background: #712cf9 !important;
   margin-bottom: 20px;
 }
 
@@ -27,17 +27,17 @@ body {
 }
 
 .nav-link:hover {
-  color: aqua !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .navbar-brand {
-  color: aqua !important;
+  color: rgb(0, 0, 0) !important;
   font-weight: bold !important;
 }
 
 .btn.btn-primary {
-  background-color: purple !important;
-  border-color: black !important;
+  background-color: #712cf9 !important;
+  /* border-color: black !important; */
   border-radius: 10px;
   border-style: solid;
 }
@@ -48,7 +48,7 @@ body {
 
 .card {
   border-radius: 4px;
-  background: #fff;
+  background: #e4e1e1d7;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
