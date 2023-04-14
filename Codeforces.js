@@ -13,7 +13,7 @@ response
         "https://res.cloudinary.com/practicaldev/image/fetch/s--N2_RJe5R--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cer3l19eex0wy900b101.jpg";
       ihtml += `
    
-      <div class="card mx-2  my-2" style="width: 22rem; height:32rem; ">
+      <div class="card mx-2  my-2 shadow p-3 mb-5 bg-white rounded" style="width: 22rem; height:33rem;">
       <img class="card-img-top " src="${image}" width = 500 height = 200 alt="Card image cap">
       <div class="card-body border border-warning ">
           <h5 class="card-title">${contests[item].name.slice(0, 28)}...</h5>
