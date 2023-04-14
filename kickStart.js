@@ -13,7 +13,7 @@ response
         "https://th.bing.com/th/id/R.ac5c9a0b19b9d097c3773012af41762f?rik=haRjvpYMcaQIcA&riu=http%3a%2f%2fwww.logoed.co.uk%2fwp-content%2fuploads%2f2014%2f04%2f22.jpg&ehk=hJFp5SP4sK%2b4YQHaawxYkSF1tud6hXng987i9Ii05rQ%3d&risl=&pid=ImgRaw&r=0";
       ihtml += `
    
-      <div class="card mx-2  my-2" style="width: 22rem; height:32rem; ">
+      <div class="card mx-2  my-2 shadow p-3 mb-5 bg-white rounded" style="width: 22rem; height:33rem;">
       <img class="card-img-top " src="${image}" width = 500 height = 200 alt="Card image cap">
       <div class="card-body border border-warning ">
           <h5 class="card-title">${contests[item].name.slice(0, 28)}...</h5>
