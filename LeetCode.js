@@ -13,7 +13,7 @@ response
         "https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X2pwZy9ENjdwZWNlaWJlSVFJRGRNaWJiYW9kN3ZFaG4xRTN2UFNBMEE4N3ROamNLT0MyRm54WVFoeVJpYm5GeVJ0RWRPNXFzZ1VXMXZReDlZaWFQeHBTdFZwWEM4ZVEvNjQw?x-oss-process=image/format,png";
       ihtml += `
     
-      <div class="card mx-2  my-2 shadow p-3 mb-5 bg-white rounded" style="width: 22rem; height:33rem;">
+      <div class="card mx-2  my-2 shadow p-3 mb-5 bg-white rounded" style="width: 22rem; height:35rem;">
       <img class="card-img-top " src="${image}" width = 500 height = 200 alt="Card image cap">
       <div class="card-body border border-warning ">
           <h5 class="card-title">${contests[item].name.slice(0, 28)}...</h5>
