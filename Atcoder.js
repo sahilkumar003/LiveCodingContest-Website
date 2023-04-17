@@ -13,7 +13,7 @@ response
         "https://th.bing.com/th/id/OIP.6wIIYDHImS7L8spOSn22owAAAA?pid=ImgDet&rs=1";
       ihtml += `
     
-      <div class="card mx-2  my-2 shadow p-3 mb-5 bg-white rounded" style="width: 22rem; height:33rem;">
+      <div class="card mx-2  my-2 shadow p-3 mb-5 bg-white rounded" style="width: 22rem; height:35rem;">
       <img class="card-img-top " src="${image}" width = 500 height = 200 alt="Card image cap">
       <div class="card-body border border-warning ">
           <h5 class="card-title">${contests[item].name.slice(0, 28)}...</h5>
